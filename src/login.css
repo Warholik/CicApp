@@ -9,6 +9,29 @@ body{
     font-weight: normal;
 }
 
+.AppBackround{
+    display: grid;
+    height: 100vh;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px; 
+    color: #CBCFD4;
+}
+
 .LoginWrapper{
     place-self: center;
     display: grid;
@@ -66,18 +89,6 @@ input:focus:invalid {
     outline: none;
 }
 
-
-
-
-@keyframes shake {
-    0% {
-      left: -5px;
-    }
-    100% {
-      right: -5px;
-    }
-  }
-
 .LogInButton{
     background: linear-gradient(90deg, #F27A54 0%, #A154F2 100%);
     border-radius: 20px;
@@ -88,6 +99,7 @@ input:focus:invalid {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
+    width:100%;
 }
 
 .rainbow:hover{
@@ -113,4 +125,29 @@ input:focus:invalid {
       background-position:20vw;
     }
   }
-  
+
+  @keyframes shake {
+    0% {
+      left: -5px;
+    }
+    100% {
+      right: -5px;
+    }
+  }
+
+
+
+  /*Landing site */
+  .boxLayout{
+    place-self: center;
+    display: grid;
+    background: #3C444D;
+    box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    grid-gap:20px;
+    padding:30px;
+  }
+
+  .boxLayout h1{
+      text-align: center;
+  }
