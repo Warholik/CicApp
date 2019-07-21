@@ -1,10 +1,10 @@
 import React from 'react';
-import Registration from './registartion'
-import Login from './Login'
+import Registration from './components/registartion'
+import Login from './components/Login'
 import {BrowserRouter ,Switch, Route, Link } from 'react-router-dom';
 
-import './login.css';
-import CicApp_Logo from '../src/1024px-Toicon-icon-fandom-fly.png'
+import './components/login.css';
+import CicApp_Logo from './components/1024px-Toicon-icon-fandom-fly.png'
 
 function App() {
    return (

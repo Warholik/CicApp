@@ -1,6 +1,6 @@
 import React from 'react';
 import './login.css';
-import CicApp_Logo from '../src/1024px-Toicon-icon-fandom-fly.png'
+import CicApp_Logo from '../components/1024px-Toicon-icon-fandom-fly.png'
 
 function Login() {
   return (
